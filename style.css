@@ -117,6 +117,9 @@ span {
   border-radius: 35px;
   animation: floatImage 4s ease-in-out infinite;
 }
+.home-img{
+   margin-right: 4%;
+}
 
 @keyframes floatImage {
   0% {
@@ -754,3 +757,4 @@ p {
   cursor: pointer;
 
 }
+
