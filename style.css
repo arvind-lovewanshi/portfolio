@@ -108,6 +108,7 @@ span {
 }
 
 .home-content {
+  margin-left: 4%;
   margin-right: 4%;
 }
 
@@ -751,4 +752,5 @@ p {
   font-size: 24px;
   color: red;
   cursor: pointer;
+
 }
