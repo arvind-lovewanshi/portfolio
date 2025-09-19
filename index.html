@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="icon" href="./logo512.png" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <box-icon name='menu' id="menu-icon"></box-icon>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Researchs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Arvind Lovewanshi</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>I am currently pursuing B.Tech in Computer Science Engineering with a specialization in Artificial 
+        Intelligence and Machine Learning from Amity University, Lucknow
+      </p>
+      <div class="social-media">
+        <a title="LinkedIn" href="https://www.linkedin.com/in/arvind-lovewanshi-858225267/" target="_blank">
+          <i
+            class='bx bxl-linkedin'></i></a>
+        <a title="GitHub" href="https://github.com/arvind-lovewanshi" target="_blank"><i class='bx bxl-github'></i></box-icon></a>
+        
+        <a title="LeetCode" href="https://leetcode.com/u/avi_love96/" target="_blank"><i class='bx bx-code'></i></a>
+
+        <a title="Skill Certificates" href="https://drive.google.com/drive/u/0/folders/1Q6Ir1e2w_T5MiYpMPIrXCjghlVbqJqNc?lfhs=2" target="_blank"><i class='bx bxs-folder'></i></a>
+
+        <a title="Internship Certificates" href="https://drive.google.com/drive/folders/1c_Nf8PnbDcIebJ-yZT7Scs_lL3vzH4DT?usp=sharing" target="_blank"><i class='bx bxs-file-doc'></i></a>
+
+      
+<!--            <a> <i class="bx bxs-folder" 
+              style="font-size: 24px; cursor: pointer;" 
+              title="Open Certificate"
+              onclick="openCertificate()"></i> </a>
+
+
+              <a> <i class='bx bxs-file-doc' 
+                style="font-size: 24px; cursor: pointer;" 
+                title="Open Offer Letter"
+                onclick="openOfferLetter()"></i> </a>
+
+-->
+
+      </div>
+<!--      <button class="btn" onclick="openResume()">View Resume</button>
+-->
+
+         <button class="btn"
+        onclick="window.open('https://drive.google.com/file/d/1hQwcQN5VlJfYFtlyazxlM-oBAS7i5-3M/view?usp=sharing','_blank')">
+  View Resume
+</button>
+
+    </div>
+    <div class="home-img">
+      <img src="profile.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="aboutArvind.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>ME</span></h2>
+      <h3>AI Engineer | Data Analyst | Data Scientist!</h3>
+      <p id="aboutMe">Hello! I'm Arvind Lovewanshi, I am 22-years-old. I’m pursuing a B.Tech in Computer Science and 
+                      Engineering with a specialization in Artificial Intelligence and Machine Learning at Amity 
+                      University, Lucknow, where I currently maintain a CGPA of 8.93.
+                    
+                      I have always been passionate about data driven technologies and AI, which has motivated me 
+                      to develop a strong foundation in machine learning, data science, and programming languages 
+                      such as Python, C++, and SQL. I am also proficient in tools and libraries like TensorFlow, 
+                      Scikit-learn, Pandas, PowerBI, and more.
+
+                      I have recently completed a machine learning internship at the National Academic Internship 
+                      Council (NAIC), where I worked on a real-world project titled Loan Approval Prediction System.
+                      In this project, I implemented classification models such as SVC, Random Forest, and Logistic 
+                      Regression, achieving a prediction accuracy of up to 85%. The project was deployed as a web-based
+                      application that provides quick and reliable loan approval status based on input data —aimed at 
+                      supporting better financial decision-making. 
+</p> 
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-container">
+      <div class="skills-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Machine Learning & Deep Learning</h3>
+        <p>Experienced in Python, Machine Learning, and Deep Learning. Proficient with NumPy, Pandas, Scikit-learn, 
+           TensorFlow, and Keras. Skilled in predictive modeling, neural network training, data preprocessing, and
+           feature engineering, with experience in visualization (Matplotlib, Seaborn) and end-to-end ML pipeline 
+           deployment using Git.
+      </div>
+    
+      <div class="skills-box">
+        <i class='bx bx-data'></i>
+        <h3>Databases</h3>
+        <p>Extensive experience with SQL databases, including designing and normalizing relational schemas, writing
+          advanced queries and stored procedures, and performing data manipulation and integration. Skilled in 
+          query optimization and indexing to ensure scalability and high performance for data-driven applications 
+          and analytics workflows.
+        </p>
+      </div>
+      
+      <div class="skills-box">
+        <i class='bx bx-code-curly'></i>
+        <h3>Programming</h3>
+        <p>Proficient in Python, C, C++, and SQL, with strong experience in HTML, CSS, and Streamlit for web 
+          applications. Skilled in Machine Learning, Deep Learning, and Data Science using libraries such as 
+          TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, and Seaborn. Familiar with data visualization 
+          tools like Power BI and experienced in building AI-driven solutions and interactive dashboards.
+        </p>
+      </div>
+
+      <div class="skills-box">
+        <i class='bx bx-group'></i>
+        <h3>Soft Skills</h3>
+        <p>Analytical and detail-oriented, with strong problem-solving abilities and a knack for turning complex
+           challenges into practical solutions. Collaborative team player with clear communication skills and 
+           experience leading group projects. Adaptable and proactive, consistently demonstrating excellent time 
+           management, quick learning, and a positive attitude to deliver results under tight deadlines.
+        </p>
+      </div>
+      
+    </div>
+    
+  </section>
+
+    <section class="projects" id="experience">
+    <h2 class="heading">My<span> Experiences</span></h2>
+    <div class="projects-container">
+
+      <div class="projects-box1">
+        <img src="cybersecurity.jpg" alt="">
+        <div class="projects-layer">
+          <h4><a id="company-name">Cisco Networking Academy</a></h4>
+          <p id="positions">Cyber Security Intern</p>
+           <p>Successfully completed a comprehensive virtual internship focused on cybersecurity principles, 
+              network security, and threat detection. Gained hands-on experience with cybersecurity tools and 
+              best practices through Cisco Networking Academy, enhancing skills in safeguarding systems and data.
+           </p>
+          <h3><i id="timeline">June/2025 - August/2025</i></h3>
+        </div>
+      </div>
+
+      <div class="projects-box1">
+        <img src="loan.jpg" alt="">
+        <div class="projects-layer">
+          <h4 id="company-name"> National Academic Internship Council</h4>
+          <p id="positions">Machine Learning Intern</p>
+          <h5>Tech Stack : Python,TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Streamlit</h5>
+          <p>
+            Successfully completed a comprehensive internship in Machine Learning, focusing on real-world applications
+            and predictive modeling. Gained hands-on experience with Python, TensorFlow, and data-driven problem 
+            solving through the National Academic Internship Council, enhancing skills in building and deploying 
+            intelligent solutions.
+          </p>
+          <h3><i id="timeline">june/2025 - july/2025</i></h3>
+        </div>
+      </div>
+
+
+        <div class="projects-box1">
+        <img src="dataanalytics.jpg" alt="">
+        <div class="projects-layer">
+          <h4 id="company-name">YBI Foundation</h4>
+          <p id="positions">Business And Data Analytics Intern</p>
+          <h5>Tech Stack : Python,TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Power BI</h5>
+          <p>
+            Completed a one-month internship focusing on business analytics and data-driven decision making. Gained 
+            hands-on experience in data analysis, visualization, and reporting while working on real-world tasks 
+            and projects with a high level of professionalism.
+          </p>
+          <h3><i id="timeline">june/2025 - july/2025</i></h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">My<span> Projects</span></h2>
+    <div class="projects-container">
+      <div class="projects-box">
+        <img src="loan.jpg" alt="">
+        <div class="projects-layer">
+          <h4>Loan Approval Prediction System</h4>
+          <p>This project predicts whether a loan application will be approved based on applicant details using 
+             Machine Learning models. It uses a Streamlit web application for user interaction and a trained model 
+             for prediction.
+
+          </p>
+          <a title="Preview" href="https://github.com/arvind-lovewanshi/Loan-Approval-Detection-System" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="projects-box">
+        <img src="Attendance.jpg" alt="">
+        <div class="projects-layer">
+          <h4>AI-Powered-Web-Application-for-Automated-Attendance-Through-Facial-Recognition</h4>
+          <p>An intelligent attendance system that leverages facial recognition to automatically register attendance.
+             Designed for educational institutions, workplaces, and events, this web application eliminates manual 
+             attendance marking while ensuring accuracy and efficiency.
+         </p>
+          <a title="Preview" href="https://github.com/arvind-lovewanshi/AI-Powered-Web-Application-for-Automated-Attendance-Through-Facial-Recognition" target="_blank"><i
+              class='bx bx-link-external'></i></i></a>
+        </div>
+      </div>
+
+      <div class="projects-box">
+        <img src="sms.jpg" alt="">
+        <div class="projects-layer">
+          <h4>SMS Spam Detection using Machine Learning</h4>
+          <p>This project predicts whether an SMS message is Spam or Not Spam using Natural Language Processing (NLP) and
+             Machine Learning techniques. It uses a Streamlit web application for user interaction and a trained model for
+             real-time prediction.
+          </p>
+          <a title="Preview" href="https://github.com/arvind-lovewanshi/SMS-Spam-Detection-" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="projects-box">
+        <img src="images/portfolio4.jpg" alt="">
+        <div class="projects-layer">
+          <h4>Weather Sage</h4>
+          <p>WeatherSage is a sleek weather app offering real-time reports worldwide. It features an interactive
+            interface, accurate weather data, and a unique weather icon display. Users can plan their activities
+            effectively, making it the ideal weather companion.</p>
+          <a title="Preview" href="https://weather-sag.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="publications" id="publications">
+  <h2 class="heading">Research & <span>Publications</span></h2>
+  <div class="projects-container">
+    <div class="projects-box">
+      <img src="research1.jpg" alt="Fake News Detection">
+      <div class="projects-layer">
+        <h4>Fake News Detection using Machine Learning</h4>
+        <p>Published in ICTACS 2024 – IEEE Scopus Indexed Conference.</p>
+        <a title="Read Paper" href="https://ieeexplore.ieee.org/document/10841180" target="_blank">
+          <i class='bx bx-link-external'></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="projects-box">
+      <img src="research2.jpg" alt="Automated Property Pricing">
+      <div class="projects-layer">
+        <h4>An Automated Property Pricing using Machine Learning</h4>
+        <p>Published in IATMSI 2025 – IEEE Scopus Indexed Conference.</p>
+        <a title="Read Paper" href="https://ieeexplore.ieee.org/document/10985703" target="_blank">
+          <i class='bx bx-link-external'></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#" method="POST" id="emailForm">
+      <div class="input-box">
+        <input type="text" name="fullName" placeholder="Full Name" required>
+        <input type="email" name="emailAddress" placeholder="Email Address" required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="mobileNumber" placeholder="Mobile Number">
+        <input type="text" name="subject" placeholder="Subject" required>
+      </div>
+      <textarea name="message" cols="40" rows="9" placeholder="Message" required></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="footer-text">
+      <p>
+        A$L <i class='bx bxs-face-mask'></i>AI Engineer | Data Analyst | Data Scientist
+        <i class='bx bx-phone'></i> <a href="tel:+919691996482" style="color: white">+919691996482</a> | 
+        <i class='bx bx-envelope'></i> <a style="color: white" href="mailto:avilovewanshi2003@gmail.com">avilovewanshi2003@gmail.com</a>
+      </p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
