@@ -427,6 +427,16 @@ p#positions {
   flex: 1 1 280px;                   /* Flexible & responsive sizing */
 }
 
+.achievements .heading {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.achievements .projects-box {
+  max-width: 520px;
+  flex: 1 1 280px;                   /* Flexible & responsive sizing */
+}
+
 .contact h2 {
   margin-bottom: 3rem;
 }
