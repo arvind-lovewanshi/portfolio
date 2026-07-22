@@ -391,6 +391,14 @@ p#positions {
   padding: 4rem 1rem;                /* Optional spacing */
 }
 
+.achievement .projects-container {
+  display: flex;                     /* Use flexbox for horizontal layout */
+  justify-content: center;           /* Center cards horizontally */
+  gap: 2rem;                         /* Space between the two cards */
+  flex-wrap: wrap;                   /* Wrap on small screens */
+  margin-top: 2rem;                  /* Space above the cards */
+}
+
 .publications .projects-container {
   display: flex;                     /* Use flexbox for horizontal layout */
   justify-content: center;           /* Center cards horizontally */
