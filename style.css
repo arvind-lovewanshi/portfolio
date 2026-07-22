@@ -380,6 +380,17 @@ p#positions {
   padding: 4rem 1rem;                /* Optional spacing */
 }
 
+.achievement {
+  padding: 4rem 2rem;
+  background: var(--second-bg-color);
+  text-align: center;
+}
+
+.achievement {
+  text-align: center;                /* Center heading text */
+  padding: 4rem 1rem;                /* Optional spacing */
+}
+
 .publications .projects-container {
   display: flex;                     /* Use flexbox for horizontal layout */
   justify-content: center;           /* Center cards horizontally */
