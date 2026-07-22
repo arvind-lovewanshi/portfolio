@@ -36,7 +36,8 @@ const typed = new Typed(".multiple-text", {
     "Machine Learning Engineer",
     "Data Analyst",
     "Data Scientist",
-    "Frontend Developer"
+    "Frontend Developer",
+    "System Engineer"
   ],
   typeSpeed: 90,
   backSpeed: 90,
