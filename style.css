@@ -311,7 +311,7 @@ p#positions {
 
 .projects-container .projects-box:hover,
 .projects-container .projects-box1:hover {
-  transform: scale(0.94);
+  transform: scale(1.10);
 }
 
 .projects-box .projects-layer,
